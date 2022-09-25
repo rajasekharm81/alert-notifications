@@ -1,0 +1,38 @@
+.notificationContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  width: 35vw;
+  border: 1px solid grey;
+  margin: 10px;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 40px;
+}
+
+.Success {
+  color: #80ca11;
+}
+
+.notificationPara {
+  color: grey;
+}
+
+.Error {
+  color: red;
+}
+
+.Warning {
+  color: orange;
+}
+
+.Info {
+  color: #2fa6f5;
+}
